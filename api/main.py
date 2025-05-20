@@ -33,7 +33,7 @@ def health_check():
     return {"status": "error", "model_loaded": False}
 
 @app.post("/predict")
-def predict_entrainement(data: InputData):
+def predict_entrainement(data: InputData): #fff
     if not model:
         return {"error": "Modèle non chargé."}
 
