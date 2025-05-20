@@ -1,24 +1,45 @@
 from fastapi import FastAPI
+from pydantic import BaseModel
 import joblib
-import pandas as pd
+import numpy as np
 
 app = FastAPI()
 
-model = None
-encoders = None
+# Exemple de schéma d'entrée
+class InputData(BaseModel):
+    age: int
+    sexe: str
+    objectif: str
+    poids: float
+    taille: float
+
+# Load le modèle une fois au démarrage
+try:
+    model = joblib.load("data/processed/model.joblib")
+    label_encoder = joblib.load("data/processed/label_encoder.joblib")
+except Exception as e:
+    model = None
+    label_encoder = None
+    print(f"Erreur de chargement du modèle: {e}")
+
+@app.get("/")
+def read_root():
+    return {"message": "Bienvenue sur l'API MLOps 🎯"}
+
+@app.get("/health")
+def health_check():
+    if model:
+        return {"status": "ok", "model_loaded": True}
+    return {"status": "error", "model_loaded": False}
 
 @app.post("/predict")
-def predict_entrainement(input: dict):
-    global model, encoders
+def predict_entrainement(data: InputData):
+    if not model:
+        return {"error": "Modèle non chargé."}
 
-    if model is None or encoders is None:
-        model = joblib.load("data/processed/model.joblib")
-        encoders = joblib.load("data/processed/encoders.joblib")
+    sexe = 1 if data.sexe.lower() == "m" else 0
+    objectif_enc = label_encoder.transform([data.objectif])[0]
 
-    input_df = pd.DataFrame([input])
-    for col in ['sexe', 'objectif']:
-        input_df[col] = encoders[col].transform(input_df[col])
-
-    pred = model.predict(input_df)[0]
-    label = encoders['entrainement_recommande'].inverse_transform([pred])[0]
-    return {"entrainement_recommande": label}
+    features = np.array([[data.age, sexe, objectif_enc, data.poids, data.taille]])
+    pred = model.predict(features)[0]
+    return {"entrainement_recommande": pred}

@@ -11,5 +11,6 @@ def test_predict_endpoint():
         "poids": 82,
         "taille": 178
     })
+
     assert response.status_code == 200
     assert "entrainement_recommande" in response.json()
