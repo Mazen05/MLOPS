@@ -6,7 +6,7 @@ import numpy as np
 app = FastAPI()
 
 # Chargement du modèle et des encodeurs
-model = joblib.load("data/processed/model.joblib")
+model = None
 encoders = joblib.load("data/processed/encoders.joblib")
 
 # Schéma d’entrée de l’utilisateur
@@ -20,6 +20,10 @@ class UserInput(BaseModel):
 @app.post("/predict")
 def predict_entrainement(user: UserInput):
     # Encodage des variables
+    global model
+if model is None:
+    model = joblib.load("data/processed/model.joblib")
+
     sexe_encoded = encoders["sexe"].transform([user.sexe])[0]
     objectif_encoded = encoders["objectif"].transform([user.objectif])[0]
 
