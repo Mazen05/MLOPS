@@ -1,0 +1,151 @@
+age,sexe,objectif,poids,taille,entrainement_recommande
+35,M,prise de muscle,70.7,198,Musculation Split
+31,M,endurance,56.9,197,Natation
+37,M,prise de muscle,65.9,170,Musculation Split
+43,F,perte de poids,96.8,154,Circuit Training
+33,F,endurance,88.0,186,Course longue
+21,M,perte de poids,94.3,160,Circuit Training
+25,F,endurance,73.9,179,Course longue
+27,F,prise de muscle,51.5,174,Musculation Split
+35,M,prise de muscle,91.3,194,Musculation Split
+29,M,prise de muscle,77.0,169,Haltères
+32,F,endurance,92.5,153,Cyclisme
+20,M,endurance,75.6,197,Natation
+36,M,endurance,97.8,174,Cyclisme
+28,M,endurance,80.7,168,Natation
+31,F,perte de poids,55.0,181,Circuit Training
+39,F,perte de poids,64.6,167,Cardio
+35,M,endurance,74.2,197,Natation
+24,F,perte de poids,83.3,183,Circuit Training
+43,M,endurance,51.7,174,Course longue
+43,M,perte de poids,84.9,181,Circuit Training
+29,F,perte de poids,80.2,195,Circuit Training
+27,M,prise de muscle,84.7,157,Full Body
+50,M,endurance,95.5,180,Natation
+36,M,prise de muscle,61.3,156,Musculation Split
+28,M,endurance,69.4,160,Natation
+41,F,prise de muscle,95.9,151,Musculation Split
+33,F,perte de poids,90.7,154,Cardio
+46,M,endurance,81.1,184,Cyclisme
+34,M,perte de poids,82.1,174,HIIT
+48,F,prise de muscle,71.0,194,Full Body
+50,F,endurance,60.8,183,Natation
+51,F,perte de poids,62.1,157,Cardio
+39,M,endurance,55.0,188,Cyclisme
+27,M,prise de muscle,69.1,196,Haltères
+24,F,perte de poids,65.7,173,HIIT
+20,F,perte de poids,78.5,162,Circuit Training
+19,F,endurance,93.4,165,Natation
+23,M,endurance,86.8,193,Natation
+46,M,prise de muscle,62.0,179,Musculation Split
+50,F,endurance,78.5,178,Course longue
+54,F,prise de muscle,82.5,195,Musculation Split
+38,M,prise de muscle,87.1,191,Haltères
+46,M,prise de muscle,84.1,155,Full Body
+34,F,perte de poids,82.1,156,HIIT
+44,F,endurance,79.7,179,Cyclisme
+54,F,prise de muscle,88.7,194,Haltères
+45,F,endurance,96.7,191,Cyclisme
+26,F,endurance,55.4,193,Natation
+41,M,endurance,95.5,195,Natation
+18,F,prise de muscle,93.6,169,Musculation Split
+18,M,prise de muscle,64.8,155,Musculation Split
+23,F,perte de poids,72.4,150,Circuit Training
+49,F,endurance,80.1,182,Natation
+40,M,perte de poids,64.8,181,Circuit Training
+41,F,perte de poids,86.0,168,Cardio
+55,M,prise de muscle,61.0,159,Haltères
+35,M,perte de poids,99.0,188,Cardio
+32,F,perte de poids,55.7,155,HIIT
+32,M,endurance,77.9,192,Course longue
+51,F,prise de muscle,53.2,200,Full Body
+48,M,prise de muscle,72.1,160,Haltères
+34,M,perte de poids,63.5,196,HIIT
+50,M,perte de poids,57.1,172,HIIT
+25,F,endurance,51.2,196,Natation
+38,F,perte de poids,82.4,181,Cardio
+39,M,prise de muscle,95.8,197,Haltères
+22,F,endurance,85.1,154,Cyclisme
+49,F,perte de poids,73.0,152,Cardio
+37,F,endurance,94.3,179,Cyclisme
+24,F,perte de poids,90.0,161,Cardio
+24,M,perte de poids,79.5,169,Cardio
+32,M,endurance,73.0,152,Cyclisme
+49,F,perte de poids,85.2,169,HIIT
+22,F,prise de muscle,79.7,165,Haltères
+20,F,perte de poids,58.9,174,Cardio
+23,F,perte de poids,75.5,158,Circuit Training
+47,F,endurance,58.2,183,Course longue
+19,F,perte de poids,83.2,184,Circuit Training
+42,F,endurance,67.4,188,Natation
+35,M,perte de poids,98.4,158,Cardio
+28,F,endurance,97.0,154,Natation
+44,M,prise de muscle,62.9,164,Musculation Split
+32,M,endurance,85.7,167,Course longue
+24,M,perte de poids,92.6,190,Cardio
+45,M,perte de poids,98.8,162,HIIT
+48,F,perte de poids,57.8,182,Circuit Training
+18,F,endurance,72.6,159,Course longue
+23,M,perte de poids,99.9,184,Circuit Training
+45,F,prise de muscle,70.6,151,Full Body
+23,F,endurance,80.5,164,Cyclisme
+44,M,endurance,66.5,195,Cyclisme
+32,M,endurance,74.3,197,Natation
+22,F,perte de poids,75.7,161,HIIT
+55,F,prise de muscle,56.9,172,Full Body
+18,F,prise de muscle,63.7,197,Musculation Split
+43,M,endurance,82.4,165,Cyclisme
+28,M,perte de poids,84.5,199,Cardio
+20,F,endurance,57.1,150,Natation
+42,M,endurance,83.1,178,Natation
+24,M,prise de muscle,61.5,175,Full Body
+44,F,prise de muscle,91.9,200,Haltères
+36,F,endurance,65.7,165,Cyclisme
+39,F,perte de poids,74.1,186,Cardio
+21,M,prise de muscle,56.1,174,Full Body
+46,F,prise de muscle,82.7,180,Musculation Split
+37,M,prise de muscle,92.4,167,Musculation Split
+31,M,perte de poids,59.3,195,Circuit Training
+30,M,prise de muscle,81.5,179,Musculation Split
+26,F,perte de poids,79.3,181,Circuit Training
+49,F,prise de muscle,94.1,185,Full Body
+55,F,perte de poids,59.7,156,Circuit Training
+54,F,perte de poids,66.8,179,Cardio
+22,M,prise de muscle,55.0,176,Musculation Split
+32,M,perte de poids,64.5,171,HIIT
+22,F,endurance,82.5,152,Course longue
+53,F,perte de poids,56.9,178,Circuit Training
+52,F,perte de poids,51.0,161,Circuit Training
+48,F,prise de muscle,75.7,187,Haltères
+42,M,prise de muscle,55.4,181,Musculation Split
+26,M,perte de poids,91.9,165,Cardio
+39,M,prise de muscle,55.7,170,Full Body
+41,M,perte de poids,56.4,165,Cardio
+25,M,prise de muscle,53.4,178,Musculation Split
+20,F,prise de muscle,94.2,192,Haltères
+27,F,prise de muscle,73.3,155,Haltères
+34,F,prise de muscle,65.2,197,Full Body
+22,F,endurance,96.3,175,Natation
+30,M,perte de poids,78.5,161,Cardio
+29,M,endurance,53.2,164,Course longue
+26,F,prise de muscle,73.3,183,Musculation Split
+31,F,endurance,68.3,158,Course longue
+26,F,perte de poids,77.2,181,Cardio
+43,M,prise de muscle,97.2,173,Musculation Split
+42,F,endurance,52.4,188,Natation
+49,F,endurance,58.9,176,Cyclisme
+50,M,endurance,94.6,171,Cyclisme
+23,M,endurance,91.5,161,Course longue
+34,F,prise de muscle,80.1,195,Full Body
+18,F,endurance,89.5,179,Natation
+49,M,perte de poids,64.5,155,Cardio
+24,F,endurance,57.0,199,Course longue
+46,F,prise de muscle,68.2,196,Haltères
+42,M,perte de poids,87.4,151,Cardio
+23,F,prise de muscle,63.9,170,Haltères
+24,F,prise de muscle,61.3,193,Musculation Split
+21,F,endurance,84.8,187,Cyclisme
+44,F,endurance,67.9,157,Course longue
+39,M,prise de muscle,83.9,158,Full Body
+33,F,endurance,76.4,188,Natation
+18,M,perte de poids,74.7,181,HIIT
