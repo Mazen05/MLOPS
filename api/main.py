@@ -5,7 +5,7 @@ import numpy as np
 
 app = FastAPI()
 
-# Exemple de schéma d'entrée
+# Exemple de schéma d'entrée.
 class InputData(BaseModel):
     age: int
     sexe: str
