@@ -5,7 +5,7 @@ import numpy as np
 
 app = FastAPI()
 
-# Exemple de schéma d'entrée.
+# Exemple de schéma d'entrée
 class InputData(BaseModel):
     age: int
     sexe: str
@@ -16,7 +16,7 @@ class InputData(BaseModel):
 # Load le modèle une fois au démarrage
 try:
     model = joblib.load("data/processed/model.joblib")
-    label_encoder = joblib.load("data/processed/label_encoder.joblib")
+    label_encoder = joblib.load("data/processed/encoders.joblib")
 except Exception as e:
     model = None
     label_encoder = None
